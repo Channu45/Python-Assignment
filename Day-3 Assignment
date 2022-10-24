@@ -1,0 +1,10 @@
+import Numpy as np
+a = np.random.radiant(100,size=(5,4))
+sort_col = 1
+print(a)
+print('column')
+print(a[:,sort_col])
+print('entire array sorted')
+print(a[a[:,sort_col].argsort()])
+print('first column sorted')
+print(a[a[:,sort_col].argsort(),sort_col])
